@@ -1,0 +1,16 @@
+{
+  "name": "SoftCenter/Dash",
+  "description": "test composer package",
+  "type": "library",
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Steven Hooisma",
+      "email": "s.hooisma@softcenter.nl"
+    }
+  ],
+  "minimum-stability": "dev"
+}
