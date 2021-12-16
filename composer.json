@@ -12,5 +12,19 @@
       "email": "s.hooisma@softcenter.nl"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "CZDash": "src/"
+    }
+  }
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CZDash\\Dashboard"
+      ]
+    }
+  }
 }
+  
+  
